@@ -7,7 +7,7 @@ from collections import defaultdict
 app = FastAPI()
 
 # --- 1. SET YOUR GOOGLE SHEET CSV LINK! ---
-SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/{sheet_id}/pub?output=csv"
+SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/https://docs.google.com/spreadsheets/d/e/2PACX-1vRcZEe2xMz2sP-Q97GPw4VQONJOUZj66KxPQ67lWkN8Ora6gZmEElPff2Mo-q2YcCC2hTsCI4nUAXWg/pub?output=csv/pub?output=csv"
 
 # --- 2. Paste/Pull Full Last-Year Medalists Summary Here ---
 BOOK1_SUMMARY = """
